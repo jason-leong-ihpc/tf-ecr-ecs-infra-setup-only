@@ -1,10 +1,13 @@
 name: Terraform CI
 
 on:
-  pull_request:
-    branches: [ "main" ]
+  push:
+    branches:
+      - dev
+      - uat
+      - main
 
-jobs:
+      jobs:
   CI:
     runs-on: ubuntu-latest
 
