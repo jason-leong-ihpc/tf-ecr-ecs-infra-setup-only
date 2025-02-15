@@ -7,7 +7,7 @@ on:
       - uat
       - main
 
-      jobs:
+jobs:
   CI:
     runs-on: ubuntu-latest
 
